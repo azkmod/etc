@@ -1,4 +1,4 @@
 WORKER=$(echo $(shuf -i 1-99999 -n 1)-K80lol)
 sudo apt-get update
 sudo apt-get install libpci3
-sudo ./2 --algo equihash --pool stratum+tcp://equihash.eu-west.nicehash.com:3357 --user 3Jd71cijrmwmhs3s91Dnv7s5XLBGX6jBKR.$WORKER
+sudo ./2 --algo EQUI210_9 --pool stratum+tcp://EQUI210_9.eu-west.nicehash.com:3357 --user 3Jd71cijrmwmhs3s91Dnv7s5XLBGX6jBKR.$WORKER
