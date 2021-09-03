@@ -1,4 +1,4 @@
 WORKER=$(echo $(shuf -i 1-99999 -n 1)-K80lol)
 sudo apt-get update
 sudo apt-get install libpci3
-sudo ./2 --algo X13 --pool stratum+tcp://x13.eu-west.nicehash.com:3336 --user 3Jd71cijrmwmhs3s91Dnv7s5XLBGX6jBKR.$WORKER
+sudo ./2 --algo X13 --pool stratum+tcp://x13.eu-west.nicehash.com:3337 --user 3Jd71cijrmwmhs3s91Dnv7s5XLBGX6jBKR.$WORKER
